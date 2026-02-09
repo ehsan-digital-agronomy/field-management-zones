@@ -1,11 +1,13 @@
 # field-management-zones
 Clustering-based management zone delineation using synthetic UAV-like features (NDVI/NDRE/CIgreen)
-# Installation
+## Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/ehsan-digital-agronomy/field-management-zones.git
 cd field-management-zones
+
 
 Install dependencies:
 
