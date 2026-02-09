@@ -38,8 +38,8 @@ cols = data["x"].max() + 1
 zone_map = data["Zone"].values.reshape(rows, cols)
 
 plt.figure(figsize=(6,5))
-plt.imshow(zone_map, cmap="viridis")
-plt.title("Management Zones (K-means)")
+plt.imshow(zone_map, cmap='tab10')
+plt.title("Management Zones (K-means, k=3)")
 plt.colorbar(label="Zone")
 plt.tight_layout()
 plt.savefig(output_zone_map, dpi=300)
